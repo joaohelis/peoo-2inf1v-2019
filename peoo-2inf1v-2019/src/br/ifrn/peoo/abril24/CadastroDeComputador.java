@@ -15,7 +15,7 @@ public class CadastroDeComputador {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		int qtdeComputadores = 3;
+		int qtdeComputadores = 45;
 		
 		int[] capacidadesMem = new int[qtdeComputadores];
 		int[] numerosComp = new int[qtdeComputadores];
