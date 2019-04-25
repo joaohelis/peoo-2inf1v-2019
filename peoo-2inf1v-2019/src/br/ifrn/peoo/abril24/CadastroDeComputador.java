@@ -13,6 +13,17 @@ public class CadastroDeComputador {
 	
 	public static void main(String[] args) {
 		
+		/*
+		 * 
+		 * Questão 01
+		 * 
+		 * Um técnico em informática foi incubido de realizar o cadastro de 45 computadores do Lab 44.
+		 * Para cada computador deve ser informado a capacidade de memória, o seu número e o nome da pessoa 
+		 * que geralmente o utiliza
+		 * 
+		 * 
+		 */
+		
 		Scanner entrada = new Scanner(System.in);
 		
 		int qtdeComputadores = 45;
@@ -42,7 +53,6 @@ public class CadastroDeComputador {
 		}
 		
 		// Verifica o índice do computador com a maior capacidade de armazenamento
-		
 		int indiceComputadorMaiorMem = 0;
 		for(int i = 1; i < qtdeComputadores; i++) {
 			if(capacidadesMem[i] > capacidadesMem[indiceComputadorMaiorMem])
