@@ -7,7 +7,7 @@ package br.ifrn.peoo.prova1etapa2;
  * @author joaohelis
  *
  */
-public class Questao1 {
+public class ResolucaoProva {
 	
 	public static String inverterTexto(String texto) {
 		
