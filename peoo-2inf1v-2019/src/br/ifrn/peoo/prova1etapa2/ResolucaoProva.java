@@ -23,7 +23,7 @@ public class ResolucaoProva {
 		
 		int qtdeVogais = 0;
 		for(int i = 0; i < texto.length(); i++) {
-			char letra = texto.charAt(i);
+			char letra = texto.toLowerCase().charAt(i);
 			if(letra == 'a' || 
 				letra == 'e' ||
 				letra == 'i' ||
@@ -38,7 +38,7 @@ public class ResolucaoProva {
 	public static void main(String[] args) {
 		
 		System.out.println(inverterTexto("VICTORIA"));
-		System.out.println(contarTodasVogais("victoria"));
+		System.out.println(contarTodasVogais("VICTORIA"));
 		
 	}
 }
